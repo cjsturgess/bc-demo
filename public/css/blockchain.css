@@ -1,0 +1,33 @@
+/* --------------------------------------------
+	
+	blockchain.css : this is the specific style file of the theme.
+	
+	Project 	: Blockchain Demo
+	Author 		: CJ Sturgess 
+	Url			: verify.sturgess.co
+	
+ -------------------------------------------- */
+
+.verify-section {
+    display: none;
+}
+
+.wait {
+    display: none;
+}
+
+.block {
+    display: none;
+}
+
+.success {
+    display: none;
+}
+
+.fail {
+    display: none;
+}
+
+.result {
+    display: none;
+}

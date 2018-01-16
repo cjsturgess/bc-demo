@@ -1,0 +1,8 @@
+{
+  "block": {
+    "from": "Bob",
+    "to": "Alice",
+    "amount": 25,
+    "verifications": 0
+  }
+}

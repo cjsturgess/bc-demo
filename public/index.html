@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="description" content="CJ Sturgess Freelance Full-Stack Developer" />
+    <meta name="author" content="CJ Sturgess">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <title>Blockchain Demo</title>
+
+    <!-- FAV and TOUCH ICONS -->
+    <link rel="shortcut icon" href="images/ico/favicon.ico">
+    <link rel="apple-touch-icon" href="images/ico/apple-touch-icon.png" />
+
+    <!-- FONTS -->
+    <link rel="stylesheet" type="text/css" href="css/fonts/hk-grotesk/style.css">
+    <link rel="stylesheet" type="text/css" href="css/fonts/fontello/css/fontello.css">
+
+    <!-- STYLES -->
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+
+    <!-- SPECIFIC STYLES -->
+    <link rel="stylesheet" type="text/css" href="css/blockchain.css">
+
+</head>
+
+<body>
+
+
+    <!-- CONTENT-WRAP -->
+    <div class="content-wrap">
+
+        <!-- CONTENT -->
+        <div class="content">
+
+            <!-- BLOCKCHAIN LOGO -->
+            <img class="profile-image" src="images/blockchain.png" alt="blockchain" />
+
+
+            <!-- TITLE -->
+            <h1>
+                Blockchain
+                </br>
+                Verification Demo
+            </h1>
+            <!-- TITLE -->
+
+            <!-- DESCRIPTION -->
+            <p>
+                To verify the following block, click "Verify Block".
+                </br>
+                The block will be hashed, and the result sent back to be verified.
+            </p>
+
+            <p class="green text result"></p>
+
+            <p>
+                <span class="highlight load">Please wait while the latest block is loaded...</span>
+                <span class="highlight green wait">Please wait while the block is verified...</span>
+                <span class="highlight green success"></span>
+                <span class="highlight red fail"></span>
+                <div class="block">
+                    <span class="bold">From: </span>
+                    <span class="green text from"></span>
+                    </br>
+                    <span class="bold">To: </span>
+                    <span class="green text to"></span>
+                    </br>
+                    <span class="bold">Amount: </span>
+                    <span class="green text amount"></span>
+                </div>
+            </p>
+
+            <p class="verify-section">
+                Ready to verify this block?
+                </br>
+                <a class="button green small verify" href="#">Verify Block</a>
+            </p>
+
+            <!-- DESCRIPTION -->
+
+        </div>
+        <!-- CONTENT -->
+
+    </div>
+    <!-- CONTENT-WRAP -->
+
+
+
+
+    <!-- SCRIPTS -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/sha256.min.js"></script>
+
+    <script src="js/main.js"></script>
+    <script src="js/blockchain.js"></script>
+
+
+</body>
+
+</html>
