@@ -1,4 +1,4 @@
-#Blockchain Demonstration
+# Blockchain Demonstration
 
 Designed to demonstrate the basic functionality of verification on the blockchain.
 
